@@ -3,9 +3,9 @@ Setup:
     pip install playwright
  
 Run:
-    python zoho_webhook_mapper.py keys.json              # all rows
-    python zoho_webhook_mapper.py keys.json --start 40   # resume from row index 40 (0-based)
-    python zoho_webhook_mapper.py keys.json --limit 3    # test on 3 rows first
+    python webhook_mapper.py keys.json              # all rows
+    python webhook_mapper.py keys.json --start 40   # resume from row index 40 (0-based)
+    python webhook_mapper.py keys.json --limit 3    # test on 3 rows first
 """
 import argparse
 import json
@@ -15,7 +15,7 @@ from playwright.sync_api import sync_playwright
  
 WEBHOOK_URL = (
     "https://forms.zoho.com/houzeo/form/"
-    "NCDoorifyMLSPreviouslyTriangleMLSDataInputForm/integrate"
+    "NMGreaterAlbuquerqueAORSWMLSMLSDataInputForm/integrate"
 )
 LEFT_INPUT = "input[name='webhookentityname']"
 BROWSER_CHANNEL = "chrome"          # "chrome" or "msedge" (uses the browser already installed)
