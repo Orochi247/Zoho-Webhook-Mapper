@@ -24,8 +24,6 @@ Built with [Playwright](https://playwright.dev/python/) and your already-install
 pip install playwright
 ```
 
-You do **not** need to run `playwright install`, because the script uses the browser already on your machine.
-
 Open `zoho_webhook_mapper.py` and set these at the top if needed:
 
 | Setting | Default | Purpose |
