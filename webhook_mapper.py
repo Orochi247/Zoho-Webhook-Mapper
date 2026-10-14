@@ -1,6 +1,6 @@
 """
 Setup:
-    pip install playwright
+    python -m pip install playwright
  
 Run:
     python webhook_mapper.py keys.json              # all rows
@@ -15,7 +15,7 @@ from playwright.sync_api import sync_playwright
  
 WEBHOOK_URL = (
     "https://forms.zoho.com/houzeo/form/"
-    "NMGreaterAlbuquerqueAORSWMLSMLSDataInputForm/integrate"
+    "SCSpartanburgMLSDataInputForm/integrate"
 )
 LEFT_INPUT = "input[name='webhookentityname']"
 BROWSER_CHANNEL = "chrome"          # "chrome" or "msedge" (uses the browser already installed)
