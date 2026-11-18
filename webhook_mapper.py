@@ -15,9 +15,9 @@ from playwright.sync_api import sync_playwright
  
 WEBHOOK_URL = (
     "https://forms.zoho.com/houzeo/form/"
-    "SCSpartanburgMLSDataInputForm/integrate"
+    "VARoanokeValleyAssociationofRealtorsRVARInputForm/integrate"
 )
-LEFT_INPUT = "input[name='webhookentityname']"
+LEFT_INPUT = "div[elname='webhookPayloadParam'] input[elname='param_name']"
 BROWSER_CHANNEL = "chrome"          # "chrome" or "msedge" (uses the browser already installed)
 PROFILE_DIR = "./zoho_profile"      # keeps your login/MFA session between runs
 FAILED_LOG = Path("failed_rows.txt")

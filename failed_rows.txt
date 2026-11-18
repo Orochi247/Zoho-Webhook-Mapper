@@ -2,3 +2,12 @@
 320	Basic_Details_Private_Agent_Remarks
 321	Basic_Details_Time
 9	Address_Information_List_Price
+43	Listing_Details_Distressed_Property
+199	Basic_Details_Time
+9	Address_Information_County
+9	Location_County
+9	Location_County
+0	task_id
+1	FormID
+2	UniqueID
+3	Date_Created
